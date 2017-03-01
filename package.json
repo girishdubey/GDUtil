@@ -1,0 +1,9 @@
+{
+  "name": "gdutil",
+  "version": "1.0.1",
+  "description": "this package is used for utility",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Girish Dubey",
+  "license": "ISC"
+}

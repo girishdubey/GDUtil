@@ -1,0 +1,17 @@
+{
+  "name": "gdutil",
+  "authors": [
+    "girishdubey <dubey.girish2@gmail.com>"
+  ],
+  "description": "this package is used for utility",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
