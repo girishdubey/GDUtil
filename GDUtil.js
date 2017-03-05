@@ -1,4 +1,4 @@
-//     GDUtil.js 1.0.0
+//     GDUtil.js 1.0.2
 //     (c) 2017 Girish Dubey (GDDon)
 //     Underscore may be freely distributed under the MIT license.
 
