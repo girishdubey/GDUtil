@@ -5,7 +5,24 @@
 (function() {
 	"use strict";
 	var GDUtil=function(){
-		version : "1.0.0"
+		version : "1.0.3"
+	};
+	
+	String.prototype.replaceAll = function (oldText, newText, ignoreCase) {
+		var str = this.toString(), i = -1, _text;
+		if (typeof oldText === "string") {
+			if (ignoreCase === true) {
+				_text = oldText.toLowerCase();
+				while ((i = str.toLowerCase().indexOf(_text, i >= 0 ? i + newText.length : 0)) !== -1) {
+					str = str.substring(0, i)
+							.concat(newText)
+							.concat(str.substring(i + _text.length));
+				}
+			} else {
+				return this.split(oldText).join(newText);
+			}
+		}
+		return str;
 	};
 	
 	GDUtil.prototype.each = function(arr, callback) {

@@ -1,6 +1,6 @@
 {
   "name": "gdutil",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "this package is used for utility",
   "main": "index.js",
   "scripts": {},
